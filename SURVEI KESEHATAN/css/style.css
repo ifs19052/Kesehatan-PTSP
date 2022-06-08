@@ -1,0 +1,39 @@
+header{
+    font-size: 20px;
+    text-align: left;
+}
+
+header h3{
+    font-size: 24px;
+    font: bolder;
+}
+
+.kesimpulan{
+    text-align: right;
+    vertical-align: middle;
+}
+
+#kesimpulan{
+    margin-top: 10px;
+    width: 740px;
+    vertical-align: middle;
+}
+
+.next{
+    background-color: 	#DCDCDC;
+    float: right;
+    width: 100px;
+    margin-top: 10px;
+}
+
+th h3{
+    text-align: center;
+}
+
+.col{
+    width: 720px;
+}
+
+#table{
+    border: 1px solid black;
+}
