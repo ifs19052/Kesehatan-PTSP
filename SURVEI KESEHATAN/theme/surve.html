@@ -7,51 +7,184 @@
     <title>SURVEI KESEHATAN</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <script src="../js/style.js"></script>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+    <style>
+        
+    </style>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
         <div class="card" style="border: 1px solid black;">
-            <div class="card-header">
-                <h5>LAMPIRAN BERITA ACARA PENILAIAN KESESUAIAN KLINIK</h5>
+            <div class="card-header" style="background-color: 	#556B2F;">
+                <h3 class="title">LAMPIRAN BERITA ACARA PENILAIAN KESESUAIAN KLINIK</h3>
             </div>
             <div class="card-body">
                 <div class="page-header">
                     <h3>Rincian Hasil Verifikasi Lapangan Klinik</h3>
                 </div>
                 <div class="page-body">
-                    <h6>Rincian Penilaian</h6>
-                    <div class="card">
-                        <div class="card-header">
-                            <h5>1. Profil Klinik
-                            <input type="checkbox" name="profil_klinik" required="true"/></h5>
+                    <button type="button" style="border: none; width: 100%; height: 100%;" class="collapsible"><h5 class="header">1. PROFIL KLINIK</h5></button>
+                        <div class="content">       
+                            <p class="body">1. Profil Klinik<br>
+                            <input type="radio" name="option1" value="a"/> Tersedia<br>
+                            <input type="radio" name="option1" value="b"/> Tidak Tersedia</p>
+                            <p class="body">2. Informasi yang tercantum pada profil klinik minimal sebagai berikut<br> 
+                            <input type="radio" name="option2" value="a"/> Tersedia<br> 
+                            <input type="radio" name="option2" value="b"/> Tidak Tersedia</p>
+                            <p class="body">3. Kesimpulan penilaian profil klinik :<br> 
+                            <input type="radio" name="option3" value="c"/> Memenuhi Syarat<br>
+                            <input type="radio" name="option3" value="d"/> Tidak Memenuhi Syarat</p>
                         </div>
-                        <div class="card-body" style="background-color: aqua;">
-                            <p>1. Profil Klinik<br>
-                            <input type="radio" name="option1" value="a"/>Tersedia<br>
-                            <input type="radio" name="option1" value="b"/>Tidak Tersedia</p>
-                            <p>2. Informasi yang tercantum pada profil klinik minimal sebagai berikut<br> 
-                            <input type="radio" name="option2" value="a"/>Tersedia<br>
-                            <input type="radio" name="option2" value="b"/>Tidak Tersedia</p>
-                            <p>3. Kesimpulan penilaian profil klinik :<br> 
-                            <input type="radio" name="option3" value="c"/>Memenuhi Syarat<br>
-                            <input type="radio" name="option3" value="d"/>Tidak Memenuhi Syarat</p>
+                    <button type="button" style="border: none; width: 100%; height: 100%;" class="collapsible"><h5 class="header">2. KEMAMPUAN PELAYANAN KLINIK</h5></button>
+                        <div class="content">       
+                                <p class="body">1. Pelayanan medik dasar. (Wajib untuk Klinik Pratama)<br>
+                                <input type="radio" name="option4" value="a"/> Tersedia<br>
+                                <input type="radio" name="option4" value="b"/> Tidak Tersedia</p>
+                                <p class="body">2. Pelayanan kesehatan gigi dan mulut. (Wajib untuk Klinik Pratama yang menyelenggarakan pelayanan kesehatan gigi dan mulut)<br>
+                                <input type="radio" name="option5" value="a"/> Tersedia<br>
+                                <input type="radio" name="option5" value="b"/> Tidak Tersedia</p>
+                                <p class="body">3. Pelayanan gawat darurat<br>
+                                <input type="radio" name="option6" value="a"/> Tersedia<br>
+                                <input type="radio" name="option6" value="b"/> Tidak Tersedia</p>
+                                <p class="body">4. Pelayanan Rujukan<br>
+                                <input type="radio" name="option7" value="a"/> Tersedia<br>
+                                <input type="radio" name="option7" value="b"/> Tidak Tersedia</p>
+                                <p class="body">5. Pelayanan home care<br>
+                                <input type="radio" name="option8" value="a"/> Tersedia<br>
+                                <input type="radio" name="option8" value="b"/> Tidak Tersedia</p>
+                                </p>
+                                <p class="body">6. Pelayanan rehabilitas medis dasar<br>
+                                <input type="radio" name="option9" value="a"/> Tersedia<br>
+                                <input type="radio" name="option9" value="b"/> Tidak Tersedia</p>
+                                <p class="body">7. Pelayanan rehabilitas medis NAPZA<br>
+                                <input type="radio" name="option10" value="a"/> Tersedia<br>
+                                <input type="radio" name="option10" value="b"/> Tidak Tersedia</p>
+                                <p class="body">8. Pelayanan Radiologi (Radiologi Klinik Pratama)<br>
+                                <input type="radio" name="option11" value="a"/> Tersedia<br>
+                                <input type="radio" name="option11" value="b"/> Tidak Tersedia</p>
+                                <p class="body">9. Pelayanan persalinan<br>
+                                <input type="radio" name="option12" value="a"/> Tersedia<br>
+                                <input type="radio" name="option12" value="b"/> Tidak Tersedia</p>
+                                <p class="body">10. Pelayanan gizi<br>
+                                <input type="radio" name="option13" value="a"/> Tersedia<br>
+                                <input type="radio" name="option13" value="b"/> Tidak Tersedia</p>
+                                <p class="body">11. Pelayanan sterilisasi<br>
+                                <input type="radio" name="option14" value="a"/> Tersedia<br>
+                                <input type="radio" name="option14" value="b"/> Tidak Tersedia</p>
+                                <p class="body">12. Pelayanan lain bila ada. Sebutkan jenis pelayaran lainnya jika tersedia :<br>
+                                <input type="radio" name="option15" value="a"/> Tersedia<br>
+                                <input type="radio" name="option15" value="b"/> Tidak Tersedia</p>
+                                <p class="body">Kesimpulan penilaian kemampuan pelayanan teknik<br>
+                                <input type="radio" name="option16" value="c"/> Memenuhi Syarat<br>
+                                <input type="radio" name="option16" value="d"/> Tidak Memenuhi Syarat</p>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="card-header">
-                            <h5>2. KEMAMPUAN PELAYANAN KLINIK</h5>
+                    <button type="button" style="border: none; width: 100%; height: 100%;" class="collapsible"><h5 class="header">3. KEMAMPUAN PELAYANAN PENUNJANG MEDIK</h5></button>
+                        <div class="content">       
+                                <p class="body">1. Pelayanan kefarmasian. (Wajib untuk Klinik Rawat Inap)<br>
+                                <input type="radio" name="option17" value="a"/> Tersedia<br>
+                                <input type="radio" name="option17" value="b"/> Tidak Tersedia</p>
+                                <p class="body">2. Pelayanan laboratorium. (Wajib untuk Klinik Rawat Inap)<br>
+                                <input type="radio" name="option18" value="a"/> Tersedia<br>
+                                <input type="radio" name="option18" value="b"/> Tidak Tersedia</p>
+                                <p class="body">3. Kesimpulan penilaian kemampuan pelayanan penunjang medik :<br>
+                                <input type="radio" name="option19" value="c"/> Memenuhi<br>
+                                <input type="radio" name="option19" value="d"/> Tidak Memenuhi Syarat</p>
                         </div>
-                        <div class="card-body">
-                            <p>1. Pelayanan medik dasar. (Wajib untuk Klinik Pratama)<br>
-                            <input type="radio" name="option4">Tersedia<br>
-                            <input type="radio" name="option4">Tidak Tersedia</p>
-                            <p>2. </p>
-                        </div>
-                    </div>
+                    
+                        <button type="button" style="border: none; width: 100%; height: 100%;" class="collapsible"><h5 class="header">4. SARANA : BANGUNAN, RUANG DAN PERALATAN KLINIK</h5></button>
+                            <div class="content">       
+                                <div class="collapsible1">
+                                    <input type="checkbox" id="collapsible-head"/>
+                                    <label>BANGUNAN KLINIK</label>
+                                    <div class="collapsible-text">
+                                        <p class="body">1. Lokasi klinik mudah diakses, paling sedikit oleh 1 unit kendaraan roda 4<br>
+                                            <input type="radio" class="option" name="option20" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option20" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Lokasi klinik berada di :<br>
+                                            <input type="radio" class="option" name="option21" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option21" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Jika lokasi klinik berada di bangunan tunggal / berdiri sendiri : 
+                                            Bangunan klinik  tidak bergabung fisik bangunannya dengan tempat tinggal perorangan.<br>
+                                            <input type="radio" class="option" name="option22" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option22" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Jika lokasi klinik berada di apartemen, perkantoran, rumah toko, rumah susun, pusat perbelanjaan, dan bangunan yang sejenis :
+                                            Memiliki akses masuk terpisah dari kegiatan lain yang bukan merupakan pelayanan klinik, serta ruangan klinik tidak boleh bergabung dengan ruangan lain yang bukan merupakan bagian klinik.
+                                            <input type="radio" class="option" name="option23" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option23" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Klinik yang berada di dalam gedung pusat perbelanjaan tidak melayani rawat inap, operasi sedang berisiko hingga besar, pelayanan yang membutuhkan observasi pasca tindakan berisiko besar yang dapat mengakibatkan timbulnya infeksi silang.<br>
+                                            <input type="radio" class="option" name="option24" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option24" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Bangunan klinik bersifat permanen<br>
+                                            <input type="radio" class="option" name="option25" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option25" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Struktur bangunan kuat, kokoh, dan stabil dalam menahan beban/kombinasi beban.<br>
+                                            <input type="radio" class="option" name="option26" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option26" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Komponen bangunan dan material harus kuat dan layak sesuai dengan kebutuhan pelayanan<br>
+                                            <input type="radio" class="option" name="option27" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option27" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Catatan tambahan lokasi klinik <br>
+                                            <input type="radio" class="option" name="option28" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option28" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">2. Bangunan Klinik memperhatikan fungsi keamanan, kenyamanan, dan kemudahan dalam pemberian pelayanan serta perlindungan kesehatan dan keselamatan bagi semua orang termasuk penyandang disabilitas, anak-anak dan lanjut usia.<br>
+                                            <input type="radio" class="option" name="option29" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option29" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Catatan tambahan fungsi keamanan, kenyamanan, kemudahan, dan keselamatan bangunan klinik <br>
+                                            <input type="radio" class="option" name="option30" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option30" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">3. Kawasan di dalam bangunan klinik harus bebas asap rokok. Tersedia rambu larangan merokok di setiap lantai.<br>
+                                            <input type="radio" class="option" name="option31" value="e"/> Sesuai<br>
+                                            <input type="radio" class="option" name="option31" value="f"/> Tidak Sesuai</p>
+                                            <p class="body">Catatan tambahan Kawasan Tanpa Rokok di klinik </p>    
+
+                                    </div>
+                                    
+                                </div>
+                                <button type="button" style="border: none; width: 100%; height: 100%;" class="collapsible"><h5 class="header">RUANG KLINIK</h5></button>
+                            </div>
+                            <button type="button" style="border: none; width: 100%; height: 100%;" class="collapsible"><h5 class="header">5. PRASARANA KLINIK</h5></button>
+                            <button type="button" style="border: none; width: 100%; height: 100%;" class="collapsible"><h5 class="header">6. SDM KLINIK</h5></button>
+                            <button type="button" style="border: none; width: 100%; height: 100%;" class="collapsible"><h5 class="header">7. PAPAN NAMA KLINIK</h5></button>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }   
+</script>
+<script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+              content.style.maxHeight = null;
+            } else {
+              content.style.maxHeight = content.scrollHeight + "px";
+            } 
+          });
+        }
+</script>
 </body>
 </html>
