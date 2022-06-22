@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEI KESEHATAN</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+            <table class="table table-bordered" id="table">
+                <thead class="table-header">
+                    <tr>
+                        <th width="50%">RINCIAN PENILAIAN</th>
+                        <th>HASIL VERIFIKASI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ol start="6"><b>
+                                <li>SDM KLINIK</li></b>
+                            </ol>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="body"><span><b>1)	Penanggung jawab klinik</b></span> : tenaga medis dengan SIP</p>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6"><input type="checkbox" name="option1"  value="a"/> Sesuai</div>
+                                <div class="col-sm-6"><input type="checkbox" name="option1" value="b"/> Tidak Sesuai</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="body"><span><b>2) SDM :</b></span></p>
+                        </td>
+                        <td>
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>
+                            <p class="body1">(1)	Tersedia minimal 2 tenaga medis</p>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6"><input type="checkbox" name="option2"  value="a"/> Sesuai</div>
+                                <div class="col-sm-6"><input type="checkbox" name="option2" value="b"/> Tidak Sesuai</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="body1">(2)	Klinik utama minimal 2 tenaga medis spesialis</p>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6"><input type="checkbox" name="option3"  value="a"/> Sesuai</div>
+                                <div class="col-sm-6"><input type="checkbox" name="option3" value="b"/> Tidak Sesuai</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="body1" valign="middle">(3)	Klinik rawat inap  minimal terdiri atas :</p>
+                        </td>   
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <input type="checkbox" name="option4"  value="a"/> Medis<br>
+                                    <input type="checkbox" name="option4"  value="b"/> Tenaga Gizi
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="checkbox" name="option4" value="c"/> Tenaga Keperawatan<br>
+                                    <input type="checkbox" name="option4" value="d"/> Tenaga Analis / ATLM
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="checkbox" name="option4" value="e"/> Apoteker<br>
+                                    <input type="checkbox" name="option4" value="f"/> Tenaga non kesehatan
+                                </div>
+                                <div class="col-sm-3">
+                                    <input type="checkbox" name="option4" value="g"/> TIK
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p class="body1"><b>Data Keterangan :</b></p>
+                            <div class="container">
+                                <table class="table table-bordered" id="table-bordered1" style="margin-left: 30px;">
+                                    <thead class="table-bordered1">
+                                        <th valign="middle">No</th>
+                                        <th valign="middle">Nama</th>
+                                        <th valign="middle">Jenis Tenaga</th>
+                                        <th valign="middle">Nomor SIP</th>
+                                        <th valign="middle">Masa Berlaku SIP s.d.</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <select class="form-select form-select-sm">
+                                                    <option selected>Choose an item</option>
+                                                    <option value="1">Dokter Penanggung Jawab</option>
+                                                    <option value="2">Dokter/Dokter Gigi Spesialis</option>
+                                                    <option value="3">Dokter/Dokter Gigi</option>
+                                                    <option value="4">Perawat</option>
+                                                    <option value="5">Bidan</option>
+                                                    <option value="6">Apoteker</option>
+                                                    <option value="7">Tenaga Teknis Kefarmasian</option>
+                                                    <option value="8">Tenaga Gizi</option>
+                                                    <option value="9">Radiografer</option>
+                                                    <option value="10">Petugas Proteksi Radiasi</option>
+                                                    <option value="11">Tenaga Ahli Teknologi Laboratorium Medik</option>
+                                                    <option value="12">Tenaga Administrasi</option>
+                                                    <option value="13">Satpam</option>
+                                                </select>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <select class="form-select form-select-sm">
+                                                    <option selected>Choose an item</option>
+                                                    <option value="1">Dokter Penanggung Jawab</option>
+                                                    <option value="2">Dokter/Dokter Gigi Spesialis</option>
+                                                    <option value="3">Dokter/Dokter Gigi</option>
+                                                    <option value="4">Perawat</option>
+                                                    <option value="5">Bidan</option>
+                                                    <option value="6">Apoteker</option>
+                                                    <option value="7">Tenaga Teknis Kefarmasian</option>
+                                                    <option value="8">Tenaga Gizi</option>
+                                                    <option value="9">Radiografer</option>
+                                                    <option value="10">Petugas Proteksi Radiasi</option>
+                                                    <option value="11">Tenaga Ahli Teknologi Laboratorium Medik</option>
+                                                    <option value="12">Tenaga Administrasi</option>
+                                                    <option value="13">Satpam</option>
+                                                </select>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <select class="form-select form-select-sm">
+                                                    <option selected>Choose an item</option>
+                                                    <option value="1">Dokter Penanggung Jawab</option>
+                                                    <option value="2">Dokter/Dokter Gigi Spesialis</option>
+                                                    <option value="3">Dokter/Dokter Gigi</option>
+                                                    <option value="4">Perawat</option>
+                                                    <option value="5">Bidan</option>
+                                                    <option value="6">Apoteker</option>
+                                                    <option value="7">Tenaga Teknis Kefarmasian</option>
+                                                    <option value="8">Tenaga Gizi</option>
+                                                    <option value="9">Radiografer</option>
+                                                    <option value="10">Petugas Proteksi Radiasi</option>
+                                                    <option value="11">Tenaga Ahli Teknologi Laboratorium Medik</option>
+                                                    <option value="12">Tenaga Administrasi</option>
+                                                    <option value="13">Satpam</option>
+                                                </select>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td>
+                                                <select class="form-select form-select-sm">
+                                                    <option selected>Choose an item</option>
+                                                    <option value="1">Dokter Penanggung Jawab</option>
+                                                    <option value="2">Dokter/Dokter Gigi Spesialis</option>
+                                                    <option value="3">Dokter/Dokter Gigi</option>
+                                                    <option value="4">Perawat</option>
+                                                    <option value="5">Bidan</option>
+                                                    <option value="6">Apoteker</option>
+                                                    <option value="7">Tenaga Teknis Kefarmasian</option>
+                                                    <option value="8">Tenaga Gizi</option>
+                                                    <option value="9">Radiografer</option>
+                                                    <option value="10">Petugas Proteksi Radiasi</option>
+                                                    <option value="11">Tenaga Ahli Teknologi Laboratorium Medik</option>
+                                                    <option value="12">Tenaga Administrasi</option>
+                                                    <option value="13">Satpam</option>
+                                                </select>
+                                            </td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="text-align: right;">Kesimpulan penilaian SDM klinik :</td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6"><input type="checkbox" name="option5"  value="a"/> Memenuhi Syarat</div>
+                                <div class="col-sm-6"><input type="checkbox" name="option5" value="b"/> Tidak Memenuhi Syarat</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol start="7"><b>
+                                <li>PAPAN NAMA KLINIK</li></b>
+                            </ol>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="body1">1)	Terpasang papan nama</p>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6"><input type="checkbox" name="option6"  value="a"/> Terpasang</div>
+                                <div class="col-sm-6"><input type="checkbox" name="option6" value="b"/> Tidak Terpasang</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="body1">2)	Ukuran minimal 1 x 1 m, dengan dasar putih, huruf hitam</p>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6"><input type="checkbox" name="option7"  value="a"/> Sesuai</div>
+                                <div class="col-sm-6"><input type="checkbox" name="option7" value="b"/> Tidak Sesuai</div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="body1">3)	Informasi yang tercantum pada papan nama klinik :</p>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="checkbox" name="option8"  value="a"/> Nama<br>
+                                    <input type="checkbox" name="option8"  value="b"/> Alamat<br>
+                                    <input type="checkbox" name="option8"  value="c"/> Kekhususan untuk Klinik Utama : organ, bidang, cabang ilmu / disiplin ilmu, jenis layanan
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="checkbox" name="option8" value="d"/> Jam Operasional<br>
+                                    <input type="checkbox" name="option8" value="e"/> Jenis (Pratama / Utama / Rawat Jalan / Rawat Inap)
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="text-align: right;">Catatan tambahan papan nama klinik :</td>
+                        <td>
+                            .......................................................
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="middle" style="text-align: right;">Kesimpulan penilaian papan nama klinik :</td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6"><input type="checkbox" name="option9"  value="a"/> Memenuhi Syarat</div>
+                                <div class="col-sm-6"><input type="checkbox" name="option9" value="b"/> Tidak Memenuhi Syarat</div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="row" style="margin-top: 50px;">
+                <div class="col-sm-6">
+                    Medan, ….. ……………….…… 2022<br>
+                    Disusun oleh :<br>
+                    Tim Teknis,
+                <p>1.	……………………………………………………..
+                    <br>NIP. ………………………………………….
+                </p>
+                <p style="margin-top: 80px;">
+                    ___________________________________________</p>
+
+                </div>
+                <div class="col-sm-6" style="margin-top: 70px;">
+                <p>2.	……………………………………………………..
+                    <br>NIP. ………………………………………….
+                </p>
+                <p style="margin-top: 80px;">
+                    ___________________________________________</p> 
+                </div>
+            </div>               
+    </div>
+</body>
+</html>
