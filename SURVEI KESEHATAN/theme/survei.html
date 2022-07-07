@@ -13,120 +13,120 @@
       <header><h3>LAMPIRAN BERITA ACARA PENILAIAN KESESUAIAN KLINIK</h3>
       <form>
         <p>Nomor :
-        <input type="number" name="nomor" id="nomor" required="true" style="width: 50px;" class="auto-save"/> BAP/PLK-PKKPL/ <input type="text" name="nomor" id="nomor" required="true" style="width: 50px;" class="auto-save"/> /2022</p>
+        <input type="number" name="nomor" id="nomor"  style="width: 50px;" /> BAP/PLK-PKKPL/ <input type="text" name="nomor" id="nomor"  style="width: 50px;" /> /2022</p>
         <p>Tanggal :
-        <input type="text" name="tanggal" id="tanggal" required="true" class="auto-save"/> 2022
+        <input type="text" name="tanggal" id="tanggal"  /> 2022
         <p>Nama Klinik : Klinik Pratama / Utama / Rawat Jalan / Inap
-        <input type="text" name="nama_klinik" id="nama_klinik" required="true" class="auto-save"/>
-        <p>Alamat Klinik : Jl <input type="text" name="alamat" id="alamat" required="true" class="auto-save"/> Kel. <input type="text" name="kelurahan" id="kelurahan" required="true" class="auto-save"/> Kec. Medan <input type="text" name="kecamatan" id="kecamatan" required="true" class="auto-save"/>
+        <input type="text" name="nama_klinik" id="nama_klinik"  />
+        <p>Alamat Klinik : Jl <input type="text" name="alamat" id="alamat"  /> Kel. <input type="text" name="kelurahan" id="kelurahan"  /> Kec. Medan <input type="text" name="kecamatan" id="kecamatan"  />
         </p>
         </p>
       </form><hr/>
       </header>
       <center><h1><b>Rincian Hasil Verifikasi Lapangan Klinik</b></h1></center>
       <table class="table table-bordered" id="table">
-        <thead>
-          <tr>
-            <th scope="col" class="col"><h3>RINCIAN PENILAIAN</h3></th>
-            <th scope="col" class="col1"><h3>HASIL VERFIFIKASI</h3></th>
-          </tr>
+        <thead class="table-header">
+            <tr>
+                <th width="50%">RINCIAN PENILAIAN</th>
+                <th width="50%">HASIL VERIFIKASI</th>
+            </tr>
         </thead>
         <tbody>
           <tr>
             <th>1. PROFIL KLINIK</th>
-            <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia
-            </div><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+            <td><div class="row"><div class="col-sm-5"><input type="checkbox" name="option" id="option1" value="Tersedia" /> Tersedia
+            </div><div class="col-sm-5"><input type="checkbox" name="option" id="option1" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
             <td>Informasi yang tercantum pada klinik minimal sebagai berikut :
             </td>
             <td><div class="row"> 
-                <div class="col-sm-4"><input class="auto-save" type="radio" name="option" id="pilihan1" value="pilihan1" required="true"/> Nama
-                <p><input class="auto-save" type="radio" name="option" id="pilihan1" value="pilihan2" required="true"/> Visi</p></div>
-                <div class="col-sm-4"><input class="auto-save" type="radio" name="option" id="pilihan3" value="pilihan3" required="true"/> Alamat Lengkap
-                    <p><input class="auto-save" type="radio" name="option" id="pilihan4" value="pilihan4" required="true"/> Misi</p></div>
-                <div class="col-sm-4"><input class="auto-save" type="radio" name="option" id="pilihan5" value="pilihan5" required="true"/> Struktur Organisasi
-                    <p><input class="auto-save" type="radio" name="option" id="pilihan6" value="pilihan6" required="true"/> Waktu Penyelenggaraan</p></div>
+                <div class="col-sm-4"><input type="checkbox" name="option" id="option2" value="Nama" /> Nama
+                <p><input  type="checkbox" name="option" id="option2" value="Visi" /> Visi</p></div>
+                <div class="col-sm-4"><input type="checkbox" name="option" id="option2" value="Alamat Lengkap" /> Alamat Lengkap
+                    <p><input  type="checkbox" name="option" id="option2" value="Misi" /> Misi</p></div>
+                <div class="col-sm-4"><input type="checkbox" name="option" id="option2" value="Struktur Organisasi" /> Struktur Organisasi
+                    <p><input  type="checkbox" name="option" id="option2" value="Waktu Penyelenggaraan" /> Waktu Penyelenggaraan</p></div>
                 </div>
             </td>
           </tr>
           <tr>
             <td class="kesimpulan">Kesimpulan penilaian profil klinik :</td>
             <td><div class="row">
-                <div class="col-sm-5"><p><input type="radio" name="option" id="option3" value="memenuhi" required="true"/> Memenuhi Syarat</p></div>
-                <div class="col-sm-5"><p><input class="auto-save" type="radio" name="option" id="option3" value="tidak_memenuhi" required="true"/> Tidak Memenuhi Syarat</p></div>
+                <div class="col-sm-5"><p><input type="checkbox" name="option" id="option3" value="Memenuhi" /> Memenuhi Syarat</p></div>
+                <div class="col-sm-5"><p><input  type="checkbox" name="option" id="option3" value="Tidak memenuhi" /> Tidak Memenuhi Syarat</p></div>
             </div></td>
           </tr>
           <tr>
           <th>2. KEMAMPUAN PELAYANAN KLINIK</th></tr>
           <tr>
               <td>1) Pelayanan medik dasar. (Wajib untuk Klinik Pratama)</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                  <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option4" value="Tersedia" /> Tersedia</div>
+                  <div class="col-sm-5"><input  type="checkbox" name="option" id="option4" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>2) Pelayanan kesehatan gigi dan mulut. (Wajib untuk Klinik Pratama yang menyelenggarakan pelayanan kesehatan gigi dan mulut)</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                  <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option5" value="Tersedia" /> Tersedia</div>
+                  <div class="col-sm-5"><input  type="checkbox" name="option" id="option5" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>3) Pelayanan gawat darurat</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option6" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option6" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>4) Pelayanan rujukan</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option7" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option7" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>5) Pelayanan home care</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option8" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option8" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>6) Pelayanan rehabilitasi medis dasar</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option9" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option9" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>7) Pelayanan rehabilitasi medis NAPZA</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option10" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option10" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>8) Pelayanan radiologi (Radiologi Klinik Pratama)</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option11" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option11" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>9) Pelayanan persalinan</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option12" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option12" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>10) Pelayanan gizi</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option13" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option13" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>11) Pelayanan sterilisasi</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option14" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option14" value="Tidak tersedia" /> Tidak Tersedia</div></div>
                 
               </td>
           </tr>
           <tr>
               <td>12) Pelayanan lain bila ada. Sebutkan jenis pelayanan lainnya jika tersedia :</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option15" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option15" value="Tidak tersedia" /> Tidak Tersedia</div></div>
                 <input type="text" name="kesimpulan" id="kesimpulan" required="false"/></td>
           </tr>
           <tr>
               <td class="kesimpulan">Kesimpulan penilaian kemampuan pelayanan klinik :</td>
               <td><div class="row">
-                <div class="col-sm-5"><p><input class="auto-save" type="radio" name="option" id="option3" value="memenuhi" required="true"/> Memenuhi Syarat</p></div>
-                <div class="col-sm-5"><p><input class="auto-save" type="radio" name="option" id="option3" value="tidak_memenuhi" required="true"/> Tidak Memenuhi Syarat</p></div>
+                <div class="col-sm-5"><p><input  type="checkbox" name="option" id="option16" value="Memenuhi" /> Memenuhi Syarat</p></div>
+                <div class="col-sm-5"><p><input  type="checkbox" name="option" id="option16" value="Tidak memenuhi" /> Tidak Memenuhi Syarat</p></div>
                 </div></td>
           </tr>
           <tr>
@@ -134,19 +134,19 @@
           </tr>
           <tr>
               <td>1) Pelayanan kefarmasian. (Wajib untuk Klinik Rawat Inap)</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option17" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option17" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td>2) Pelayanan laboratorium. (Wajib untuk Klinik Rawat Inap)</td>
-              <td><div class="row"><div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option1" value="tersedia" required="true"/> Tersedia</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</div></div></td>
+              <td><div class="row"><div class="col-sm-5"><input  type="checkbox" name="option" id="option18" value="Tersedia" /> Tersedia</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option18" value="Tidak tersedia" /> Tidak Tersedia</div></div></td>
           </tr>
           <tr>
               <td class="kesimpulan">Kesimpulan penilaian kemampuan pelayanan penunjang medik :</td>
               <td><div class="row">
-                <div class="col-sm-5"><p><input class="auto-save" type="radio" name="option" id="option3" value="memenuhi" required="true"/> Memenuhi Syarat</p></div>
-                <div class="col-sm-5"><p><input class="auto-save" type="radio" name="option" id="option3" value="tidak_memenuhi" required="true"/> Tidak Memenuhi Syarat</p></div>
+                <div class="col-sm-5"><p><input  type="checkbox" name="option" id="option19" value="Memenuhi" /> Memenuhi Syarat</p></div>
+                <div class="col-sm-5"><p><input  type="checkbox" name="option" id="option19" value="Tidak memenuhi" /> Tidak Memenuhi Syarat</p></div>
                 </div></td>
           </tr>
           <tr>
@@ -158,19 +158,19 @@
           <tr>
               <td>1) Lokasi klinik mudah diakses, paling sedikit oleh 1 unit kendaraan roda 4</td>
               <td><div class="row">
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option5" value="sesuai" required="true"/> Sesuai</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option20" value="sesuai" /> Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option20" value="tidak_sesuai" /> Tidak Sesuai</div>
                 </div></td>
           </tr>
           <tr>
               <td>Lokasi klinik berada di :</td>
               <td><div class="row">
-                <div class="col-sm-4"><input class="auto-save" type="radio" name="option" id="pilihan7" value="pilihan7" required="true"/> Pusat Perbelanjaan
-                    <p><input class="auto-save" type="radio" name="option" id="pilihan8" value="pilihan8" required="true"/> Rumah Toko</p></div>
-                <div class="col-sm-4"><input class="auto-save" type="radio" name="option" id="pilihan9" value="pilihan9" required="true"/> Bangunan Tunggal / Berdiri Sendiri
-                    <p><input class="auto-save" type="radio" name="option" id="pilihan10" value="pilihan10" required="true"/> Rumah Susun</p></div>
-                <div class="col-sm-4"><input class="auto-save" type="radio" name="option" id="pilihan11" value="pilihan11" required="true"/> Apartemen
-                    <p><input class="auto-save" type="radio" name="option" id="pilihan12" value="pilihan12" required="true"/> Perkantoran</p></div>
+                <div class="col-sm-4"><input  type="checkbox" name="option" id="pilihan21" value="pilihan7" /> Pusat Perbelanjaan
+                    <p><input  type="checkbox" name="option" id="pilihan21" value="pilihan8" /> Rumah Toko</p></div>
+                <div class="col-sm-4"><input  type="checkbox" name="option" id="pilihan21" value="pilihan9" /> Bangunan Tunggal / Berdiri Sendiri
+                    <p><input  type="checkbox" name="option" id="pilihan21" value="pilihan10" /> Rumah Susun</p></div>
+                <div class="col-sm-4"><input  type="checkbox" name="option" id="pilihan21" value="pilihan11" /> Apartemen
+                    <p><input  type="checkbox" name="option" id="pilihan21" value="pilihan12" /> Perkantoran</p></div>
                 </div>
             </td>
           </tr>
@@ -178,58 +178,58 @@
               <td>Jika lokasi klinik berada di bangunan tunggal / berdiri sendiri : 
                 Bangunan klinik  tidak bergabung fisik bangunannya dengan tempat tinggal perorangan.</td>
                 <td><div class="row">
-                    <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option5" value="sesuai" required="true"/> Sesuai</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                    <div class="col-sm-5"><input  type="checkbox" name="option" id="option22" value="sesuai" /> Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option22" value="tidak_sesuai" /> Tidak Sesuai</div>
                     </div></td>
           </tr>
           <tr>
               <td>Jika lokasi klinik berada di apartemen, perkantoran, rumah toko, rumah susun, pusat perbelanjaan, dan bangunan yang sejenis :
                 Memiliki akses masuk terpisah dari kegiatan lain yang bukan merupakan pelayanan klinik, serta ruangan klinik tidak boleh bergabung dengan ruangan lain yang bukan merupakan bagian klinik.</td>
                 <td><div class="row">
-                    <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option5" value="sesuai" required="true"/> Sesuai</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                    <div class="col-sm-5"><input  type="checkbox" name="option" id="option23" value="sesuai" /> Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option23" value="tidak_sesuai" /> Tidak Sesuai</div>
                     </div></td>
           </tr>
           <tr>
               <td>Klinik yang berada di dalam gedung pusat perbelanjaan tidak melayani rawat inap, operasi sedang berisiko hingga besar, pelayanan yang membutuhkan observasi pasca tindakan berisiko besar yang dapat mengakibatkan timbulnya infeksi silang.</td>
               <td><div class="row">
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option5" value="sesuai" required="true"/> Sesuai</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option24" value="sesuai" /> Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option24" value="tidak_sesuai" /> Tidak Sesuai</div>
                 </div></td>
           </tr>
           <tr>
               <td>Bangunan klinik bersifat permanen</td>
               <td><div class="row">
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option5" value="sesuai" required="true"/> Sesuai</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option25" value="sesuai" /> Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option25" value="tidak_sesuai" /> Tidak Sesuai</div>
                 </div></td>
           </tr>
           <tr>
               <td>Struktur bangunan kuat, kokoh, dan stabil dalam menahan beban/kombinasi beban</td>
               <td><div class="row">
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option5" value="sesuai" required="true"/> Sesuai</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option26" value="sesuai" /> Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option26" value="tidak_sesuai" /> Tidak Sesuai</div>
                 </div></td>
           </tr>
           <tr>
               <td>Komponen bangunan dan material harus kuat dan layak sesuai dengan kebutuhan pelayanan</td>
               <td><div class="row">
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option5" value="sesuai" required="true"/> Sesuai</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option27" value="sesuai" /> Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option27" value="tidak_sesuai" /> Tidak Sesuai</div>
                 </div></td>
           </tr>
           <tr>
               <td class="kesimpulan">Catatan tambahan lokasi klinik </td>
               <td>
-                <input type="text" name="kesimpulan" id="kesimpulan" required="false"/>
+                <input type="text" name="kesimpulan" id="option28" value="kesimpulan">
               </td>
           </tr>
           <tr>
               <td>2) Bangunan Klinik memperhatikan fungsi keamanan, kenyamanan, dan kemudahan dalam pemberian pelayanan serta perlindungan kesehatan dan keselamatan bagi semua orang termasuk penyandang disabilitas, anak-anak dan lanjut usia.</td>
               <td><div class="row">
-                <div class="col-sm-4"><p><input class="auto-save" type="radio" name="option" id="pilihan13" value="pilihan13" required="true"/> Terpasang handrail</p></div>
-                <div class="col-sm-4"><p><input class="auto-save" type="radio" name="option" id="pilihan14" value="pilihan14" required="true"/> Akses Tiap Ruangan Berdekatan</p></div>
-                <div class="col-sm-4"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                <div class="col-sm-4"><p><input  type="checkbox" name="option" id="pilihan29" value="Terpasang handrail" /> Terpasang handrail</p></div>
+                <div class="col-sm-4"><p><input  type="checkbox" name="option" id="pilihan29" value="Akses tiap ruangan berdekatan" /> Akses Tiap Ruangan Berdekatan</p></div>
+                <div class="col-sm-4"><input  type="checkbox" name="option" id="option29" value="tidak_sesuai" /> Tidak Sesuai</div>
                 </div></td>
           </tr>
           <tr>
@@ -238,13 +238,13 @@
           <tr>
               <td>3) Kawasan di dalam bangunan klinik harus bebas asap rokok. Tersedia rambu larangan merokok di setiap lantai.</td>
               <td><div class="row">
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option5" value="sesuai" required="true"/> Sesuai</div>
-                <div class="col-sm-5"><input class="auto-save" type="radio" name="option" id="option6" value="tidak_sesuai" required="true"/> Tidak Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option30" value="sesuai" /> Sesuai</div>
+                <div class="col-sm-5"><input  type="checkbox" name="option" id="option30" value="tidak_sesuai" /> Tidak Sesuai</div>
                 </div></td>
           </tr>
           <tr>
               <td class="kesimpulan">Catatan tambahan Kawasan Tanpa Rokok di klinik :</td>
-              <td> <input type="text" name="kesimpulan" id="kesimpulan" required="false"/></td>
+              <td> <input type="text" name="kesimpulan" id="option31" value="kesimpulan"/></td>
           </tr>
         </tbody>
       </table>
