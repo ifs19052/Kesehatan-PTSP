@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SURVEI KESEHATAN</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ <style>
+     .dashes{
+        border-style: dashed;
+     }
+ </style>
+ </head>
+  <body>
+      <br>
+      <div class="container">
+      <table class="table table-bordered" style="border-color: black;">
+        <thead>
+          <tr>
+            <th style="text-align: center" scope="col" width="500px"><h3>RINCIAN PENILAIAN</h3></th>
+            <th style="text-align: center" scope="col" width="500px"><h3>HASIL VERFIFIKASI</h3></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="4" style="text-align: left">
+              <div class="container">
+                <table align="left" class="tbale table-bordered" style="width: 500px; border-color:black;">
+                  <tr>
+                    <th>No</th>
+                    <th>Jenis Peralatan</th>
+                    <th>Jumlah minimal</th>
+                    <th>Hasil Verifikasi</th>
+                  </tr>
+                  <tr>
+                    <td colspan="4"><b>Perlengkapan :</b></td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Bantal</td>
+                    <td>Sesuai Jumlah Tempat tidur</td>
+                    <td><div class="row">
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option1" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option2" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Dorongan untuk tabung O<span class="subtext">2</span></td>
+                    <td>1 buah</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option3" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option4" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Duk Bolong</td>
+                    <td>3 buah</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option5" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option6" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Handuk Kecil</td>
+                    <td>3 buah</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option7" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option8" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>Kain Penutup Meja Mayo</td>
+                    <td>3 buah</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option9" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option10" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Kasur</td>
+                    <td>Sesuai Jumlah Tempat Tidur</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option11" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option12" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Kursi Roda</td>
+                    <td>1 unit</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option13" value="tersedia" required="true"/> Tersedia&ensp;unit</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option14" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>Lap Untuk Mandi Pasien</td>
+                    <td>Sesuai kebutuhan</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option15" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option16" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                </table>
+
+                <table align="right" class="tbale table-bordered" style="width: 500px; border-color:black;">
+                  <tr>
+                    <th>No</th>
+                    <th>Jenis Peralatan</th>
+                    <th>Jumlah minimal</th>
+                    <th>Hasil Verifikasi</th>
+                  </tr>
+                  <tr>
+                    <td colspan="4"><b>Perlengkapan : (Untuk klinik pratama)</b></td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>Pispot Anak</td>
+                    <td>S1 buah</td>
+                    <td><div class="row">
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option17" value="tersedia" required="true"/> Tersedia</p></div>
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option18" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>Pispot Dewasa</td>
+                    <td>1 buah</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option19" value="tersedia" required="true"/> Tersedia</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option20" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>Pispot Pria/Urinal</td>
+                    <td>1 buah</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option21" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option22" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Perlak, Tebal Lunak (200 x 90 Cm)</td>
+                    <td>Sesuai kebutuhan</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option23" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option24" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>Sarung Bantal</td>
+                    <td>Sesuai kebutuhan</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option25" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option26" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>14</td>
+                    <td>Selimut</td>
+                    <td>Sesuai kebutuhan</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option27" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option28" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>15</td>
+                    <td>Sprei</td>
+                    <td>Sesuai kebutuhan</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option29" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option30" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                  <tr>
+                    <td>16</td>
+                    <td>Tempat Sampah Tertutup</td>
+                    <td>2 buah</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option31" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option32" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="4" style="text-align: left">
+              <div class="container">
+                <table align="left" class="tbale table-bordered" style="width: 500px; border-color:black;">
+                  <tr>
+                    <th>No</th>
+                    <th>Jenis Peralatan</th>
+                    <th>Jumlah minimal</th>
+                    <th>Hasil Verifikasi</th>
+                  </tr>
+                  <tr>
+                    <td colspan="4"><b>Meubelair</b></td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Kursi</td>
+                    <td>10 unit</td>
+                    <td><div class="row">
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option33" value="tersedia" required="true"/> Tersedia&ensp;unit</p></div>
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option34" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Lemari kecil untuk perlengkapan pasien</td>
+                    <td>Sesuai Jumlah Tempat Tidur</td>
+                    <td><div class="row">
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option35" value="tersedia" required="true"/> Tersedia&ensp;buah</p></div>
+                        <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option36" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                    </div></td>
+                  </tr>
+                </table>
+
+                <table align="right" class="tbale table-bordered" style="width: 500px; border-color:black;">
+                  <tr>
+                    <th>No</th>
+                    <th>Jenis Peralatan</th>
+                    <th>Jumlah minimal</th>
+                    <th>Hasil Verifikasi</th>
+                  </tr>
+                  <tr>
+                    <td colspan="4"><b>Meubelair</b></td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Lemari Peralatan</td>
+                    <td>1 unit</td>
+                    <td><div class="row">
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option37" value="tersedia" required="true"/> Tersedia&ensp;unit</p></div>
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option38" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                  </div></td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>Penyekat Ruangan</td>
+                    <td>Sesuai kebutuhan</td>
+                    <td><div class="row">
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option39" value="tersedia" required="true"/> Tersedia</p></div>
+                      <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option40" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                  </div></td>
+                  </tr>
+                </table>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="4" style="text-align: left">
+              <div class="container">
+                <table align="left" class="table table-bordered" style="width: 500px; border-color:black;">
+                    <tbody>
+                      <tr>
+                        <th>No</th>
+                        <th>Jenis Peralatan</th>
+                        <th>Jumlah minimal</th>
+                        <th>Hasil Verifikasi</th>
+                      </tr>
+                      <tr>
+                        <td colspan="4"><b>Pencatatan dan Pelaporan :</b></td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Formulir Rujukan</td>
+                        <td>Sesuai Kebutuhan</td>
+                        <td><div class="row">
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option41" value="tersedia" required="true"/> Tersedia</p></div>
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option42" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>Formulir Lain Sesuai Kebutuhan</td>
+                        <td> Sesuai Kebutuhan</td>
+                        <td><div class="row">
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option43" value="tersedia" required="true"/> Tersedia</p></div>
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option44" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>Informed Consent</td>
+                        <td> Sesuai Kebutuhan</td>
+                        <td><div class="row">
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option45" value="tersedia" required="true"/> Tersedia</p></div>
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option46" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td>4</td>
+                        <td>Kertas Resep</td>
+                        <td> Sesuai Kebutuhan</td>
+                        <td><div class="row">
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option47" value="tersedia" required="true"/> Tersedia</p></div>
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option48" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                        </div></td>
+                      </tr>
+                    </tbody>
+                </table>
+
+                <table align="right" class="tbale table-bordered" style="width: 500px; border-color:black;">
+                    <tbody>
+                      <tr>
+                        <th>No</th>
+                        <th> Jenis Peralatan</th>
+                        <th> Jumlah minimal</th>
+                        <th> Hasil Verifikasi</th>
+                      </tr>
+                      <tr>
+                        <td colspan="4"><b> Pencatatan dan Pelaporan :</b></td>
+                      </tr>
+                      <tr>
+                        <td>5</td>
+                        <td>Rekan Medis Pasien rawaat Inap</td>
+                        <td>Sesuai Kebutuhan</td>
+                        <td><div class="row">
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option49" value="tersedia" required="true"/> Tersedia</p></div>
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option50" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td>6</td>
+                        <td>Register Pasien Rawat Inap</td>
+                        <td> Sesuai Kebutuhan</td>
+                        <td><div class="row">
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option51" value="tersedia" required="true"/> Tersedia</p></div>
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option52" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td>7</td>
+                        <td>Surat Keterangan Sakit</td>
+                        <td> Sesuai Kebutuhan</td>
+                        <td><div class="row">
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option53" value="tersedia" required="true"/> Tersedia</p></div>
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option54" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td>8</td>
+                        <td>Formulir pelaporan</td>
+                        <td> Sesuai kebutuhan</td>
+                        <td><div class="row">
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option55" value="tersedia" required="true"/> Tersedia</p></div>
+                            <div class="col-sm-5"><p><input class="auto-save" type="checkbox" name="option" id="option56" value="tidak_tersedia" required="true"/> Tidak Tersedia</p></div>
+                        </div></td>
+                      </tr>
+                    </tbody>
+                </table>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td>catatan tambahan ruang pemeriksaan umum / ruang konsultasi / diagnostis:</td>
+          </tr>
+
+        </tbody>
+      </table>
+      <div class="container">
+          <ul class="pagination pagination-sm" style="justify-content: center">
+            <li class="page-item"><a class="page-link" href="#" style="color: black;">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="color: black;">1</a></li>
+            <li class="page-item active"><a class="page-link" href="#" style="color: black;">2</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="color: black;">3</a></li>
+            <li class="page-item"><a class="page-link" href="#" style="color: black;">Next</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

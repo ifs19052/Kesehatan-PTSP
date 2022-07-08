@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEI KESEHATAN</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="card">
+            <table class="table table-bordered">
+                <thead class="table-header">
+                    <tr>
+                        <th width="60%">RINCIAN PENILAIAN</th>
+                        <th>HASIL VERIFIKASI</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <ol start="3">
+                                <li>Ruang Tindakan</li>
+                                <p>(Wajib tersedia bagi Rawat Jalan maupun Rawat Inap. Dapat bergabung dengan ruang pemeriksaan umum/konsultasi)</p>
+                            </ol>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-5"><input type="checkbox" name="option1"  value="a"/> Tersedia</div>
+                                <div class="col-sm-5"><input type="checkbox" name="option1" value="b"/> Tidak Tersedia</div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="body">Ada berapa ruang tindakan yang tersedia di klinik :</p>
+                        </td>
+                        <td>
+                            <div class="row">
+                                <div class="col-sm-6">.............. Ruangan</div>
+                                <div class="col-sm-6">Sebutkan :</div></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <table class="table table-bordered" id="table-bordered">
+                                <thead class="table-header1">
+                                    <tr>
+                                        <th rowspan="4" colspan="2" valign="middle">Nama Ruangan</th>
+                                        <th colspan="5" valign="middle">Luas Ruangan</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" valign="middle">Ruang Tindakan Terpisah</th>
+                                        <th colspan="2" valign="middle">Ruang tindakan yang bergabung dengan ruang pemeriksaan umum / konsultasi</th>
+                                        <th rowspan="4" valign="middle">Luas ruang yang tersedia (m²)</th>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2" valign="middle">Luas minimal 7 (tujuh) m²</th>
+                                        <th colspan="2" valign="middle">Luas ruang minimal dapat menampung 2 TT, 
+                                            1 TT periksa dan 1 TT tindakan, dibatasi dengan tirai</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Sesuai</th>
+                                        <th>Tidak Sesuai</th>
+                                        <th>Sesuai</th>
+                                        <th>Tidak Sesuai</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Ruang.........</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><b style="margin-left: 30px;">Peralatan pada ruang tindakan klinik pratama :</b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <table class="table table-bordered" id="table-bordered1">
+                                        <thead class="table-bordered1">
+                                            <th valign="middle">No</th>
+                                            <th valign="middle">Jenis Peralatan</th>
+                                            <th valign="middle">Jumlah Minimal</th>
+                                            <th valign="middle">Hasil Verifikasi</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="4"><b style="margin-left: 20px;">Set Tindakan Medis :</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">1</td>
+                                                <td width="25%">Baki logam tempat alat steril tertutup</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option1"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option1" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">2</td>
+                                                <td width="25%">Collar Brace/Neck Collar anak</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option2"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option2" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">3</td>
+                                                <td width="25%">Collar Brace/Neck Collar dewasa</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option3"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option3" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">4</td>
+                                                <td width="25%">Corong telinga/Spekulum telinga</td>
+                                                <td width="15%" style="text-align: center;">1 set</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option4"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option4" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">5</td>
+                                                <td width="25%">Doppler</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option5"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option5" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">6</td>
+                                                <td width="25%">Dressing Forceps</td>
+                                                <td width="15%" style="text-align: center;">1 set</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option6"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option6" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">7</td>
+                                                <td width="25%">EKG</td>
+                                                <td width="15%" style="text-align: center;">1 set</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option7"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option7" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">8</td>
+                                                <td width="25%">Emesis Basin/ Nierbeken besar</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option8"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option8" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">9</td>
+                                                <td width="25%">Guedel Airway (Oropharingeal Airway)</td>
+                                                <td width="15%" style="text-align: center;">1 set</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option9"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option9" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">10</td>
+                                                <td width="25%">Gunting bedah standar, lengkung, ujung tajam/ tajam</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option10"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option10" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">11</td>
+                                                <td width="25%">Gunting bedah standar, lengkung, ujung tajam/ tumpul </td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option11"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option11" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">12</td>
+                                                <td width="25%">Gunting bedah standar, lengkung, ujung tumpul/ tumpul</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option12"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option12" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">13</td>
+                                                <td width="25%">Gunting bedah standar, lurus ujung tajam/ tajam</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option13"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option13" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">14</td>
+                                                <td width="25%">Gunting bedah standar, lurus, ujung tajam/tumpul</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option14"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option14" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">15</td>
+                                                <td width="25%">Gunting bedah standar, lurus, ujung tumpul/ tumpul</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option15"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option15" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">16</td>
+                                                <td width="25%">Gunting pembalut</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option16"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option16" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-sm-6">
+                                    <table class="table table-bordered" id="table-bordered2">
+                                        <thead class="table-bordered1">
+                                            <th valign="middle">No</th>
+                                            <th valign="middle">Jenis Peralatan</th>
+                                            <th valign="middle">Jumlah Minimal</th>
+                                            <th valign="middle">Hasil Verifikasi</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="4"><b style="margin-left: 20px;">Set Tindakan Medis :</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">17</td>
+                                                <td width="25%">Gunting pembuka jahitan lurus </td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option17"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option17" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">18</td>
+                                                <td width="25%">Handle kaca nasopharing</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option18"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option18" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">19</td>
+                                                <td width="25%">Kait dan kuret serumen</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option19"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option19" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">20</td>
+                                                <td width="25%">Kanula hidung anak</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option20"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option20" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">21</td>
+                                                <td width="25%">Kanula hidung dewasa</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option21"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option21" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">22</td>
+                                                <td width="25%">Klem arteri 14 cm (Kocher)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option22"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option22" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">23</td>
+                                                <td width="25%">Klem arteri, 12 cm lengkung, dengan gigi 1x2 (Halstead-Mosquito)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option23"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option23" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">24</td>
+                                                <td width="25%">Klem arteri, 12 cm lengkung, tanpa gigi (Halstead-Mosquito)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option24"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option24" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">25</td>
+                                                <td width="25%">Klem arteri, 12 cm lurus, dengan gigi 1x2 (Halstead-Mosquito)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option25"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option25" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">26</td>
+                                                <td width="25%">Klem arteri, 12 cm lurus, tanpa gigi  (Halstead-Mosquito)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option26"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option26" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">27</td>
+                                                <td width="25%">Klem arteri, lurus (Kelly)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option27"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option27" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">28</td>
+                                                <td width="25%">Klem/pemegang jarum jahit, 18 cm (Mayo-Hegar)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option28"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option28" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">29</td>
+                                                <td width="25%">Korentang, lengkung, penjepit alat steril dan silindernya</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option29"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option17" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">30</td>
+                                                <td width="25%">Kursi roda</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option30"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option30" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">31</td>
+                                                <td width="25%">Lampu kepala </td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option31"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option31" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">32</td>
+                                                <td width="25%">Laringoskop</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option32"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option32" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="row" style="margin-top: 30px;">
+                                <div class="col-sm-6">
+                                    <table class="table table-bordered" id="table-bordered3">
+                                        <thead class="table-bordered1">
+                                            <th valign="middle">No</th>
+                                            <th valign="middle">Jenis Peralatan</th>
+                                            <th valign="middle">Jumlah Minimal</th>
+                                            <th valign="middle">Hasil Verifikasi</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="4"><b style="margin-left: 20px;">Set Tindakan Medis :</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">33</td>
+                                                <td width="25%">Laringoskop neonatus bilah lurus </td>
+                                                <td width="15%" style="text-align: center;">RJ : +/-<br> 
+                                                    RI : 1 buah
+                                                    </td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option33"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option33" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">34</td>
+                                                <td width="25%">Magill Forceps</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option34"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option34" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">35</td>
+                                                <td width="25%">Nebulizer </td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option35"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option35" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">36</td>
+                                                <td width="25%">Otoskop</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option36"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option36" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">37</td>
+                                                <td width="25%">Palu reflex</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option37"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option37" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">38</td>
+                                                <td width="25%">Pinset alat bengkok (Remky)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option38"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option38" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">39</td>
+                                                <td width="25%">Pinset anatomis 14,5 cm</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option39"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option39" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">40</td>
+                                                <td width="25%">Pinset anatomis 18 cm</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option40"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option40" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">41</td>
+                                                <td width="25%">Pinset bedah 14,5 cm</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option41"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option41" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">42</td>
+                                                <td width="25%">Pinset bedah 18 cm</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option42"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option42" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">43</td>
+                                                <td width="25%">Pinset epilasi</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option43"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option43" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">44</td>
+                                                <td width="25%">Pinset telinga</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option44"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option44" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">45</td>
+                                                <td width="25%">Resusitator anak</td>
+                                                <td width="15%" style="text-align: center;">1 set</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option45"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option45" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">46</td>
+                                                <td width="25%">Resusitator dewasa</td>
+                                                <td width="15%" style="text-align: center;">1 set</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option46"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option46" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">47</td>
+                                                <td width="25%">Semprit gliserin</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option47"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option15" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">48</td>
+                                                <td width="25%">Skalpel, tangkai pisau operasi</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option48"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option48" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">49</td>
+                                                <td width="25%">Spalk</td>
+                                                <td width="15%" style="text-align: center;">Sesuai Kebutuhan</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option49"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option49" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="col-sm-6">
+                                    <table class="table table-bordered" id="table-bordered4">
+                                        <thead class="table-bordered1">
+                                            <th valign="middle">No</th>
+                                            <th valign="middle">Jenis Peralatan</th>
+                                            <th valign="middle">Jumlah Minimal</th>
+                                            <th valign="middle">Hasil Verifikasi</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td colspan="4"><b style="margin-left: 20px;">Set Tindakan Medis :</b></td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">50</td>
+                                                <td width="25%">Spekulum hidung</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option50"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option50" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">51</td>
+                                                <td width="25%">Sphygmomanometer dewasa dan anak</td>
+                                                <td width="15%" style="text-align: center;">1 set</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option51"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option51" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">52</td>
+                                                <td width="25%">Stand lamp</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option52"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option52" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">53</td>
+                                                <td width="25%">Standar infus</td>
+                                                <td width="15%" style="text-align: center;">RJ : 1 buah<br>
+                                                    RI : Sesuai kebutuhan 
+                                                    </td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option53"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option53" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">54</td>
+                                                <td width="25%">Stetoskop</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option54"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option54" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">55</td>
+                                                <td width="25%">Laenac</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option55"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option55" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">56</td>
+                                                <td width="25%">Suction pump (alat penghisap)</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option56"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option56" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">57</td>
+                                                <td width="25%">Sudip/Spatula lidah</td>
+                                                <td width="15%" style="text-align: center;">Sesuai Kebutuhan</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option57"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option57" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">58</td>
+                                                <td width="25%">Tabung O2 dan regulator </td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option58"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option58" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">59</td>
+                                                <td width="25%">Meja periksa dan perlengkapannya</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option59"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option59" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">60</td>
+                                                <td width="25%">Termometer</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option60"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option60" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">61</td>
+                                                <td width="25%">Timbangan bayi</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option61"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option61" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">62</td>
+                                                <td width="25%">Timbangan dewasa</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option62"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option62" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">63</td>
+                                                <td width="25%">Kursi roda</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option63"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option63" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td valign="middle" style="text-align: center;">64</td>
+                                                <td width="25%">Usungan (brankar )</td>
+                                                <td width="15%" style="text-align: center;">1 buah</td>
+                                                <td>
+                                                    <div class="row">
+                                                        <div class="col-sm-6"><input type="checkbox" name="option64"  value="a"/> Tersedia</div>
+                                                        <div class="col-sm-6"><input type="checkbox" name="option64" value="b"/> Tidak Tersedia</div>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>   
+        </div>
+    </div>
+</body>
+</html>
