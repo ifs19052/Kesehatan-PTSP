@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEI KESEHATAN</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" style="border: 1px solid black;">
+            <div class="card-header" style="background-color: lightgrey;">
+                <h4>RINCIAN PENILAIAN</h4>
+            </div>
+            <div class="card-body">
+                <div class="page-header">
+                    <b>RUANG KLINIK</b>
+                </div>
+                <div class="card-header" style="background-color: lightgrey;">
+                    <h6><b>1) Ruang Penerimaan</b></h6>
+                </div>
+                <div class="card-body">
+                    <p><b>1) Ruang Administrasi:</b><br> (Wajib Tersedia bagi Rawat Jalan maupun Rawat Inap)<br>
+                        <input type="radio" name="option1" value="a" /> Tersedia<br>
+                        <input type="radio" name="option1" value="b" /> Tidak Tersedia</p>
+                    <p>Untuk fungsi pendaftaran, pembayaran, rekam medik, dan perkantoran<br>
+                        <input type="radio" name="option2" value="1" /> Fungsi Pendaftaran<br>
+                        <input type="radio" name="option2" value="2" /> Fungsi Pembayaran<br>
+                        <input type="radio" name="option2" value="3" /> Fungsi rekam medik<br>
+                        <input type="radio" name="option2" value="4" /> Fungsi Perkantoran<br></p>
+                    <p>Catatan tambahan ruang administrasi:</p>
+                    <input type="text" name="text" value="" />
+                </div>
+                <div class="card-body">
+                    <p><b> 2) Ruang Tunggu:</b><br> (Wajib tersedia bagi Rawat Jalan maupun Rawat Inap)<br>
+                        <input type="radio" name="option3" value="a" /> Tersedia<br>
+                        <input type="radio" name="option3" value="b" /> Tidak tersedia</p>
+                    <p>Tersedia kursi pada ruang tunggu<br>
+                        <input type="radio" name="option4" value="a" /> Tersedia<br>
+                        <input type="radio" name="option4" value="b" /> Tidak tersedia</p>
+                    <p>Tersedia tempat sampah tertutup pada ruang tunggu<br>
+                        <input type="radio" name="option5" value="a" /> Tersedia<br>
+                        <input type="radio" name="option5" value="b" /> Tidak tersedia</p>
+                    <p>Papan nama dokter/dokter gigi wajib dicantumkan pada ruang tunggu<br>
+                        <input type="radio" name="option6" value="a" /> Tersedia<br>
+                        <input type="radio" name="option6" value="b" /> Tidak tersedia</p>
+                </div>
+                <div class="card-header" style="background-color: lightgrey;">
+                    <h6><b>2) Ruang Pelayanan Medik</b> : Untuk klinik khusus gigi, ruang pelayanan medik hanya terdiri dari ruang pelayanan kesehatan gigi dan mulut</h6>
+                </div>
+                <div class="card-body">
+                    <p><b>1) Ruang Pemeriksaan Umum/Ruang Konstultasi/Diagnotis</b><br> (Wajib tersedia bagi Rawat Jalan maupun Rawat Inap)<br>
+                        <input type="radio" name="option7" value="a" /> Tersedia<br>
+                        <input type="radio" name="option7" value="b" /> Tidak tersedia</p>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td rowspan="3">No</td>
+                                    <td colspan="3" rowspan="3" style="width: 10px;">Nama Ruangan</td>
+                                    <td colspan="3" align="center">Luas Ruangan</td>
+                                    <td colspan="3" style="width: 15px;">Tersedia westafel dan fasilitas desinfeksi tangan</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" align="center">Luas Minimal 7 (tujuh) m2</td>
+                                    <td rowspan="2" align="center" style="width: 10px;">Luas ruang yang tersedia (m2)</td>
+                                    <td rowspan="2" align="center">Tersedia</td>
+                                    <td rowspan="2" align="center">Tidak Tersedia</td>
+                                </tr>
+                                <tr>
+                                    <td align="center">Sesuai</td>
+                                    <td align="center">Tidak Sesuai</td>
+
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="width: 15px;">1</p>
+                                    </td>
+                                    <td colspan="3"><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p style="width: 15px;">2</p>
+                                    </td>
+                                    <td colspan="3"><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                    <td><input type="text"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="card-header">
+                            <h5>Peralatan:<br>
+                                Set Pemeriksaan Umum Untuk yang Pertama</h5>
+                        </div>
+                        <div class="card-body">
+                                <table class="table table-borderd">
+                                    <thead>
+                                        <th>No</th>
+                                        <th>Jenis Peralatan</th>
+                                        <th>Jumlah Minimal</th>
+                                        <th>Hasil Verifikasi</th>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Baki logam tempat alat steril bertutup</td>
+                                        <td>RJ : 2 bh <br>
+                                            RI : 3 bh</td>
+                                        <td><input type="radio" name="option8" value="g">Tersedia
+                                        <p><input type="text"  style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option8" value="h">Tidak Tersedia</p></td>
+                                        </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Bingkai dan Lensa uji-coba untuk pemeriksaan refraksi </td>
+                                        <td>1 set</td>
+                                        <td><input type="radio" name="option9" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option9" value="h">Tidak Tersedia</p></td>
+                                        </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Buku Ishihara Tes </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option10" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option10" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Corong telinga/ Spekulum telinga</td>
+                                        <td>1 set</td>
+                                        <td><input type="radio" name="option11" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option11" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Nierbeken besar </td>
+                                        <td>2 buah</td>
+                                        <td><input type="radio" name="option12" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option12" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Garputala</td>
+                                        <td>1 set</td>
+                                        <td><input type="radio" name="option13" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option13" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Handle dan kaca nasopharing  </td>
+                                        <td>1 set</td>
+                                        <td><input type="radio" name="option14" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option14" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Kaca pembesar untuk diagnostic (lup)</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option15" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option15" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Lampu kepala/Head Lamp </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option16" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option16" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Lampu senter untuk periksa / pen light</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option17" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option17" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Metline (pengukur lingkar pinggang) </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option18" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option18" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Opthalmoscope</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option19" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option19" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Otoscope</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option20" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option20" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Palu refleks </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option21" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option21" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Pelilit kapas/Cotton applicator</td>
+                                        <td>Sesuai Kebutuhan</td>
+                                        <td><input type="radio" name="option22" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option22" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Skinfold calliper </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option23" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option23" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Snellen Chart 2 jenis (E Chart + Alphabet Chart) </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option24" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option24" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>18</td>
+                                        <td>Spekulum vagina (cocor bebek) sedang</td>
+                                        <td>1 set</td>
+                                        <td><input type="radio" name="option25" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option25" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>Spekulum hidung dewasa </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option26" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option26" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>Spekulum hidung anak </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option27" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option27" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>21</td>
+                                        <td>Sphygmomanometer untuk dewasa </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option28" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option28" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>Manset Sphygmomanometer untuk anak</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option29" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option29" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>Stetoskop</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option30" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option30" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>24</td>
+                                        <td>Sudip lidah /spatula lidah</td>
+                                        <td>Sesuai Kebutuhan</td>
+                                        <td><input type="radio" name="option31" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option31" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>25</td>
+                                        <td>Meja periksa dan perlengkapannya  </td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option32" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option32" value="h">Tidak Tersedia</p></td>
+                                    <tr>
+                                        <td>26</td>
+                                        <td>Termometer</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option33" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option33" value="h">Tidak Tersedia</p></td>
+                                        <tr>
+                                            <td>27</td>
+                                        <td>Timbangan dewasa</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option34" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option34" value="h">Tidak Tersedia</p></td>   
+                                    <tr>
+                                        <td>28</td>
+                                        <td>Timbangan bayi</td>
+                                        <td>1 buah</td>
+                                        <td><input type="radio" name="option35" value="g">Tersedia
+                                        <p><input type="text" style="width: 110px;">Buah</p>
+                                        <p><input type="radio" name="option35" value="h">Tidak Tersedia</p></td>
+                                    </tr>   
+                                    </tr>
+                                    </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="card-header">
+                                    <h5>Set Pemeriksaan : (Untuk klinik utama)<br>
+                                        Umum : untuk pemeriksaan tanda vital: 1 set
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-borderd">
+                                        <thead>
+                                            <th>No</th>
+                                            <th>Jenis Peralatan</th>
+                                            <th>Jumlah Minimal</th>
+                                            <th>Hasil Verifikasi</th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Tensimeter</td>
+                                            <td>1 buah</td>
+                                            <td><input type="radio" name="option36" value="g">Tersedia
+                                            <p><input type="text" style="width: 110px;">Buah</p>
+                                            <p><input type="radio" name="option36" value="h">Tidak Tersedia</p></td>
+                                        </tr>
+                                            <td>2</td>
+                                            <td>Stetoskop</td>
+                                            <td>1 buah</td>
+                                            <td><input type="radio" name="option37" value="g">Tersedia
+                                            <p><input type="text" style="width: 110px;">Buah</p>
+                                            <p><input type="radio" name="option37" value="h">Tidak Tersedia</p></td>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Timbangan berat badan</td>
+                                            <td>1 buah</td>
+                                            <td><input type="radio" name="option38" value="g">Tersedia
+                                            <p><input type="text" style="width: 110px;">Buah</p>
+                                            <p><input type="radio" name="option38" value="g">Tidak Tersedia</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Termometer</td>
+                                            <td>1 buah</td>
+                                            <td><input type="radio" name="option39" value="g">Tersedia
+                                            <p><input type="text" style="width: 110px;">Buah</p>
+                                            <p><input type="radio" name="option39" value="g">Tidak Tersedia</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Senter/pen light</td>
+                                            <td>1 buah</td>
+                                            <td><input type="radio" name="option40" value="g">Tersedia
+                                            <p><input type="text" style="width: 110px;">Buah</p>
+                                            <p><input type="radio" name="option40" value="g">Tidak Tersedia</p></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            <div class="card-body">
+                                <table class="table table-borderd">
+                                    <thead>
+                                        <th> </th>
+                                        <th>Jenis Peralatan</th>
+                                        <th>Jumlah Minimal</th>
+                                        <th>Hasil Verifikasi</th>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                           <td><h5>Set Pemeriksaan : (Untuk klinik utama)</h5></td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Khusus : Sesuai dengan kebutuhan minimal setiap jenis spesiali di rawat jalan</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tuliskan peralatan khusus sesuai kebutuhan jenis spesifikasi yang tersedia di klinik
+                                            <p><input type="text" style="width: 350px;"></p></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
